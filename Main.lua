@@ -72,7 +72,7 @@ local embed = {
         },
         {
             ["name"] = "Join Script:",
-            ["value"] = "```TeleportService:TeleportToPlaceInstance(" .. placeId .. ", " .. jobId .. ")```"
+            ["value"] = "```TeleportService:TeleportToPlaceInstance(" .. placeId .. ", " .. jobId ..")```"
         }
     },
     ["footer"] = {
