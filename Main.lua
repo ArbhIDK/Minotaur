@@ -72,7 +72,8 @@ local embed = {
         },
         {
             ["name"] = "Join Script:",
-            ["value"] = "```TeleportService:TeleportToPlaceInstance(" .. placeId .. ", " .. jobId ..")```"
+            ["value"] = "```game:GetService(\"TeleportService\"):TeleportToPlaceInstance(" .. placeId .. ", " .. jobId ..")```"
+
         }
     },
     ["footer"] = {
